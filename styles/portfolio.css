@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-red{
+    color:#FD6E0A;
+}
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 51px;
+}
+nav{
+    width: 74%;
+    max-width: 1536px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: #474747;
+}
+
